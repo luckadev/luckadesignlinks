@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Agrandir';
+  src: url('./assets/fonts/Agrandir-Regular.otf') format('opentype');
+}
+
+:root {
+  --white: #FBFBFB;
+  --grey: #919191;
+  --black: #0E0E0E;
+  --purple: #653CD8;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: 'Agrandir';
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.container {
+  width: 93%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-block: 5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.header p.banner {
+  font-size: 16px;
+  padding: 20px 30px;
+  border-radius: 159.493px;
+  border: 1.595px solid var(--grey, #919191);
+  background: rgba(255, 255, 255, 0.05);
+  position: absolute;
+}
+
+.header div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.header div h2 {
+  color: var(--white, #FBFBFB);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+}
+
+.header div p {
+  color: var(--grey, #B5B5B5);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */                 
+}
+
+.principal {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.principal h4 {
+  color: var(--white, #FBFBFB);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+
+.btn-custom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 1000px;
+  background: #1D1D1D;
+  padding: 20px 35px;
+  width: 100%;
+  transition: all .4s;
+}
+
+.btn-custom div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.btn-custom img {
+  max-width: 40px;
+}
+
+.btn-custom h4 {
+  color: var(--white, #FBFBFB);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+.btn-custom p {
+  color: var(--grey, #B5B5B5);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 16.8px */
+}
+
+.outros {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.outros h4 {
+  color: var(--white, #FBFBFB);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+/* hover */
+.btn-custom:hover {
+  scale: .9;
+}
