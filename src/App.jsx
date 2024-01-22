@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 
-const BTN = (props = { url, title, description, icon }) => {
+const BTN = (props = { url, title, description, icon, message }) => {
   return (
     <a href={props.url} target='_blank' className='btn-custom'>
       <div>
