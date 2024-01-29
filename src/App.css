@@ -1,12 +1,12 @@
+@font-face {
+  font-family: 'Agrandir';
+  src: url('../public/assets/fonts/Agrandir-Regular.otf') format('opentype');
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: 'Agrandir';
-  src: url('./assets/fonts/Agrandir-Regular.otf') format('opentype');
 }
 
 :root {
@@ -48,7 +48,6 @@ img {
   border-radius: 159.493px;
   border: 1.595px solid var(--grey, #919191);
   background: rgba(255, 255, 255, 0.05);
-  position: absolute;
 }
 
 .header div {
